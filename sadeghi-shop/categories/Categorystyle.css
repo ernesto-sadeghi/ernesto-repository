@@ -1,0 +1,34 @@
+
+@font-face {
+    font-family: 'vazir';
+    src: url('../vazir-font-v27.2.2-Fontjo.com/Vazir-Medium.ttf') format('truetype'),
+    url('../vazir-font-v27.2.2-Fontjo.com/Vazir-Medium.woff') format('woff'),
+    url('../vazir-font-v27.2.2-Fontjo.com/Vazir-Medium.woff2') format('woff2');
+}
+
+* {
+    font-family: vazir;
+}
+
+.red {
+    color: #C62368;
+}
+
+.blue {
+    color: #59e3ff;
+}
+
+.bg-blue {
+    background-color: #59e3ff;
+}
+
+.bg-red {
+background-color: #C62368;
+}
+.offer {
+        color: #C62368;
+
+        text-decoration-line: line-through;
+        text-decoration-color: #C62368;
+        text-decoration: line-through;
+    }
