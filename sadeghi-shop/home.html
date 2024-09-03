@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadeghishop Home page</title>
+    <!-- my colors
+red = #C62368 
+blue: #59e3ff
+-->
+
+<link rel="icon" type="icon/png" href="svgs-and-images/InShot_20240812_175442180.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="Homestyle.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar sticky-top  navbar-expand-lg shadow bg-white">
+        <div class="container">
+            <a class="navbar-brand mybrand  red fw-bold" href="http://127.0.0.1:5500/about-us/about-us.html">فروشگاه صادقی</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="#sec1">صفحه اصلی</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sec2">درباره ما</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:5500/about-us/about-us.html">تماس باما</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            محصولات
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="http://127.0.0.1:5500/categories/categories.html?cat='appliences'">لوازم خانگی</a></li>
+                            <li><a class="dropdown-item" href="http://127.0.0.1:5500/categories/categories.html?cat='moble'">موبایل</a></li>
+                            <li><a class="dropdown-item" href="http://127.0.0.1:5500/categories/categories.html?cat='laptop'">لپتاپ</a></li>
+                            <li><a class="dropdown-item" href="http://127.0.0.1:5500/categories/categories.html?cat='game'">کنسول بازی</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- svg -->
+
+
+
+    <!-- section 1 carousel     -->
+
+    <section id="sec1" class=" border border-3 border-light ">
+        <div class="container-fluid hd pt-5">
+            <div class="row align-items-center">
+                <div class="col-12 barca-anime rounded rounded-3 p-0 ">
+
+                    <div id="carouselExampleIndicators" class="carousel  slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner rounded  ">
+                            <div class="carousel-item active">
+                                <img class="cp" src="svgs-and-images/20240809_160256.jpg" class="d-block w-100"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img class="cp" src="svgs-and-images/InShot_20240809_154321904.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img class="cp" src="svgs-and-images/Screenshot_20240808_141023_Google.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img class="cp" src="svgs-and-images/Screenshot_20240807_022719_Chrome.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img class="cp" src="svgs-and-images/Screenshot_20240808_140042_Google.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img class="cp" src="svgs-and-images/InShot_20240809_160121120.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-12 text-center mt-5">
+                    <h3>فروشگاه لوازم خانگی صادقی </h3>
+                    <h5 class="blue fw-bold fs-3 mt-3 text-shadow"> Sadeghishop.io</h5>
+                    <p class="fs-5 red">فروشگاه صادقی به شما تجربه لذت بخش از خرید را هدیه می کنند. </p>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- connector svg -->
+
+    <img src="svgs-and-images/stacked-waves-haikei-connector2" alt="" class="svg">
+
+    <!-- section2  -->
+    <section class="bg-red" id="sec2">
+        <div class="container">
+
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <i class="bi bi-question-circle-fill ic fs-2 mt-5"></i>
+                    <p class="fw-bold card-title text-light mb-4 mt-4">چرا ما را باید انتخاب کنید؟</p>
+                    <p class=" text-light ">
+                        ارزانی و کیفیت رمز موفقیت ماست
+                    </p>
+                    <p class=" text-light">
+                        ما شعار نمی دهیم بلکه عمل میکنیم
+                    </p>
+                    <P class=" text-light">
+                        ارسال رایگان و سریع السیر
+                    </P>
+                    <p class=" text-light">
+                        با واحد پشتیبانی 24 ساعته
+                    </p>
+                </div>
+                <div class="col-md-8 ">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-6">
+                            <div class="card pt-3 shadow text-center my-5">
+                                <div class="card-body ">
+                                    <i class="bi ic fs-2 bi-tools"></i>
+                                    <p class="fw-bold card-title mb-4 mt-4">از گارانتی نپرسید</p>
+                                    <p class="card-text text-muted">
+                                        از کارانتی محصول مطمئن باشید
+                                        تمامی محصولات ما دارای گارانتی می باشند و تمامی محصولات اورجینال می باشند
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card pt-3 shadow text-center my-5">
+                                <div class="card-body ">
+                                    <i class="bi ic fs-2  bi-cash-coin"></i>
+                                    <p class="fw-bold card-title mb-4 mt-4">دلهره ای در پرداخت نداشته باشید</p>
+                                    <p class="card-text text-muted">
+                                        اقساط 24 ماهه به ضامن ،بدون سود
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="card pt-3 shadow text-center my-5">
+                                <div class="card-body ">
+                                    <i class="bi ic fs-2  bi-fire"></i>
+                                    <p class="fw-bold card-title mb-4 mt-4">تخفیف های آتشین !</p>
+                                    <p class="card-text text-muted">
+                                        تخفیف های طلایی ماهانه مارو از دست ندهید </p>
+                                </div>
+                            </div>
+                            <div class="card pt-3 shadow text-center my-5">
+                                <div class="card-body ">
+                                    <i class="bi ic fs-2  bi-chat-square-quote"></i>
+                                    <p class="fw-bold card-title mb-4 mt-4">یه شعار کوچک</p>
+                                    <p class="card-text text-muted">
+                                        عمل ما شعار ماست </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- down svg -->
+    <!-- <img class="svg" src="svgs-and-images/layered-peaks-haikei (2).svg" alt=""> -->
+
+
+    <!-- between -->
+    <img src="svgs-and-images/stacked-peaks-haikei.svg" alt="" class="svg">
+
+
+    <!-- upper svg -->
+    <!-- 
+    <img class="svg" src="svgs-and-images/layered-peaks-haikei (1).svg" alt=""> -->
+
+    <!-- section3   -->
+
+    <section id="sec3" class="bg-blue">
+        <div class="container ">
+            <div class="row ">
+                <span class="d-flex flex-row justify-content-center ">
+
+                    <h2 class="text-white fs-md-4 fs-5 fw-md-bold mb-5 text-shadow">لیست فروش ویژه با تخفیف های آتشین
+                    </h2>
+                    <i class="bi red fs-2  ps-3 bi-fire text-shadow"></i>
+                </span>
+            </div>
+            <div class="row ">
+                <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card-wrapper container-sm d-flex  justify-content-around">
+                                <div class="card  good" style="width: 18rem;">
+                                    <img src="svgs-and-images/a.svg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">لپ تاپ</h5>
+                                        <p class="card-text red offer  text-end"> 999,000,000 ﷼</p>
+                                        <p class="card-text text-muted text-end"> 100,000,000 ﷼</p>
+                                        <a href="http://127.0.0.1:5500/product/product.html?id=1"
+                                            class="btn w-100 btn-outline-dark">مشخصات محصول</a>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                        <div class="carousel-item">
+                            <div class="card-wrapper container-sm d-flex   justify-content-around">
+                                <div class="card  good" style="width: 18rem;">
+                                    <img src="svgs-and-images/b.svg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">موبایل</h5>
+                                        <p class="card-text red offer  text-end"> 999,770,000 ﷼</p>
+                                        <p class="card-text text-muted text-end"> 200,000,000 ﷼</p>
+                                        <a href="http://127.0.0.1:5500/product/product.html?id=13"
+                                            class="btn w-100 btn-outline-dark">مشخصات محصول</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card-wrapper container-sm d-flex  justify-content-around">
+                                <div class="card good" style="width: 18rem;">
+                                    <img src="svgs-and-images/c.svg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">کنسول</h5>
+                                        <p class="card-text red offer  text-end"> 999,700,000 ﷼</p>
+                                        <p class="card-text text-muted text-end"> 300,000,000 ﷼</p>
+                                        <a href="http://127.0.0.1:5500/product/product.html?id=5"
+                                            class="btn w-100 btn-outline-dark">مشخصات محصول</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card-wrapper container-sm d-flex  justify-content-around">
+                                <div class="card good" style="width: 18rem;">
+                                    <img src="svgs-and-images/d.svg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">لوازم خانگی</h5>
+                                        <p class="card-text red offer  text-end"> 790,000,000 ﷼</p>
+                                        <p class="card-text text-muted text-end"> 400,000,000 ﷼</p>
+
+                                        <a href="http://127.0.0.1:5500/product/product.html?id=9"
+                                            class="btn w-100 btn-outline-dark">مشخصات محصول</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card-wrapper container-sm d-flex  justify-content-around">
+                                <div class="card good" style="width: 18rem;">
+                                    <img src="svgs-and-images/a.svg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">لپ تاپ</h5>
+                                        <p class="card-text offer red text-end"> 920,000,000 ﷼</p>
+                                        <p class="card-text text-muted text-end"> 500,000,000 ﷼</p>
+
+                                        <a href="http://127.0.0.1:5500/product/product.html?id=2"
+                                            class="btn w-100 btn-outline-dark">مشخصات محصول</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="carousel-item">
+                            <div class="card-wrapper container-sm d-flex  justify-content-around">
+                                <div class="card good" style="width: 18rem;">
+                                    <img src="svgs-and-images/b.svg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">موبایل2</h5>
+                                        <p class="card-text offer red text-end"> 890,000,000 ﷼</p>
+                                        <p class="card-text text-muted text-end"> 600,000,000 ﷼</p>
+
+                                        <a href="http://127.0.0.1:5500/product/product.html?id=14"
+                                            class="btn w-100 btn-outline-dark">مشخصات محصول</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="card" style="width: 18rem;">
+                                    <img src="svgs-and-images/a.svg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">7#لوازم خانگی</h5>
+                                        <p class="card-text text-muted text-end"> 100,000,000 ﷼</p>
+                                    </div>
+                                </div> -->
+                        <!-- <div class="card" style="width: 18rem;">
+                                    <img src="svgs-and-images/a.svg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">#لوازم خانگی</h5>
+                                        <p class="card-text text-muted text-end"> 100,000,000 ﷼</p>
+                                    </div>
+                                </div> -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+    <!-- down svg  -->
+
+    <img class="svg" src="svgs-and-images/layered-peaks-haikei (3).svg" alt="">
+
+    <!-- section4 -->
+
+    <section id="sec4">
+        <div class="container">
+            <div class="row text-center mb-5 ">
+                <h2 class="red text-shadow ">لیست خدمات</h2>
+            </div>
+
+
+            <div class="row mb-5 align-items-center">
+                <div
+                    class="col-12  d-flex flex-column  flex-md-row align-content-center flex-wrap justify-content-around mb-4 ">
+                    <div class="card without-border service  mb-3" style="width: 22rem;">
+                        <img src="svgs-and-images/a.svg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <a class="card-text fs-3 btn btn-outline-dark" href="http://127.0.0.1:5500/categories/categories.html?cat='laptop'">انواع لپتاپ</a>
+                        </div>
+                    </div>
+
+                    <div class="card without-border service " style="width: 22rem;">
+                        <img src="svgs-and-images/b.svg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <a class="card-text fs-3 btn btn-outline-dark" href="http://127.0.0.1:5500/categories/categories.html?cat='mobile'"> انواع موبایل </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div
+                    class="col-12 d-flex flex-column  flex-md-row align-content-center flex-wrap justify-content-around mb-4 ">
+                    <div class="card  without-border service mb-3" style="width: 22rem;">
+                        <img src="svgs-and-images/c.svg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <a class="card-text fs-3 btn btn-outline-dark" href="http://127.0.0.1:5500/categories/categories.html?cat='game'"> انواع کنسول بازی</a>
+                        </div>
+                    </div>
+
+                    <div class="card without-border service  " style="width: 22rem;">
+                        <img src="svgs-and-images/d.svg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <a class="card-text fs-3 btn btn-outline-dark" href="http://127.0.0.1:5500/categories/categories.html?cat='appliences'">دیگر لوازم خانگی</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+
+    <footer class="bg-light">
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <h5 class="fw-bold my-4 red">sadeghishop.io</h5>
+                    <p class="">اگر بدون خرید از پیش ما بری ، پشیمون میشی</p>
+                    <p class="">از مسیر های ارتباطی زیر با ما در ارتباط باشید </p>
+                    <i class="bi fs-4 ms-1 bi-linkedin red"></i><i class="bi fs-4 ms-5 bi-facebook red"></i><i
+                        class="bi fs-4 ms-5 bi-telegram red"></i><i class="bi fs-4 ms-5 bi-instagram red"></i>
+                </div>
+                <div class="  col-md-8">
+                    <div class="row mt-5 mt-md-0">
+                        <!-- <div class="d-block d-md-none">
+                        <hr>
+                    </div> -->
+                        <div class="col-12  col-md-4">
+                            <ul>
+                                <li class="list-group-item p-2 red">بخش های سایت</li>
+                                <hr>
+                                <a class="list-group-item p-2" href="#sec1">صفحه اصلی</a>
+                                <a class="list-group-item p-2" href="#sec2">درباره ما</a>
+                                <a class="list-group-item p-2" href="#sec3">محصولات</a>
+                                <a class="list-group-item p-2" href="http://127.0.0.1:5500/about-us/about-us.html">پشتیبانی</a>
+                            </ul>
+                        </div>
+                        <!-- <div class="d-block d-md-none">
+                        <hr>
+                    </div> -->
+                        <div class="col-12  col-md-4">
+                            <ul>
+                                <li class="list-group-item p-2 red">محصولات</li>
+                                <hr>
+                                <a href="http://127.0.0.1:5500/categories/categories.html?cat='laptop'" class="list-group-item p-2">لپ تاپ</a>
+                                <a href="http://127.0.0.1:5500/categories/categories.html?cat='mobile'" class="list-group-item p-2">موبایل</a>
+                                <a href="http://127.0.0.1:5500/categories/categories.html?cat='appliences'" class="list-group-item p-2">لوازم خانگی</a>
+                                <a href="http://127.0.0.1:5500/categories/categories.html?cat='game'" class="list-group-item p-2">کنسول</a>
+                            </ul>
+                        </div>
+                        <div class="col-12  col-md-4">
+                            <!-- <div class="d-block d-md-none">
+                            <hr>
+                        </div> -->
+                            <ul>
+                                <li class="list-group-item p-2 red">درباره ما</li>
+                                <hr>
+                                <a class="list-group-item p-2" href="#sec2">درباره ما</a>
+                                <a class="list-group-item p-2"href="http://127.0.0.1:5500/about-us/about-us.html" >تماس با ما</a>
+                                <a class="list-group-item p-2" href="http://127.0.0.1:5500/about-us/about-us.html">آدرس ما</a>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <script src="app.js"></script>
+</body>
+
+</html>

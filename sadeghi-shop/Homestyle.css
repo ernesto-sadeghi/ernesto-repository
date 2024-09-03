@@ -1,0 +1,163 @@
+    /*   font */
+    @font-face {
+        font-family: 'vazir';
+        src: url('vazir-font-v27.2.2-Fontjo.com/Vazir-Medium.ttf') format('truetype'),
+            url('vazir-font-v27.2.2-Fontjo.com/Vazir-Medium.woff') format('woff'),
+            url('vazir-font-v27.2.2-Fontjo.com/Vazir-Medium.woff2') format('woff2');
+    }
+
+    * {
+        font-family: vazir;
+    }
+
+    /*   colors      */
+    .red {
+        color: #C62368;
+    }
+
+    .blue {
+        color: #59e3ff;
+    }
+
+    .bg-blue {
+        background-color: #59e3ff;
+    }
+
+    .bg-red {
+        background-color: #C62368;
+    }
+
+    /*   carousel picture  */
+    .cp {
+
+        width: inherit;
+        height: 500px;
+
+
+
+    }
+
+    /*       carousel animation */
+    .barca-anime {
+        animation: ani 5s ease-in-out;
+        animation-iteration-count: infinite;
+
+    }
+
+    @keyframes ani {
+        0% {
+            box-shadow: 2px 2px 2px 1px #2d717e;
+            /* background-color: #59e3ff; */
+        }
+
+        30% {
+            box-shadow: 9px 9px 9px 1px #331aa1;
+            /* background-color: #170f3a; */
+
+        }
+
+        60% {
+            box-shadow: 20px 20px 20px 1px #51102b;
+            /* background: #C62368; */
+        }
+
+        98% {
+
+            box-shadow: 9px 9px 9px 1px #212e37;
+            /* background-color: #3c94c3; */
+
+
+        }
+    }
+
+
+    /* icon */
+    .ic {
+        padding: 16px;
+        background-color: rgb(217, 217, 217);
+        border-radius: 15px;
+        padding-bottom: 5px;
+        color: #C62368;
+    }
+
+    /* full size svg */
+    .svg {
+        width: 100%;
+
+    }
+
+
+    /* text shadow */
+    .text-shadow {
+        text-shadow: 5px 5px 9px black;
+    }
+
+    .hd {
+        background: url(svgs-and-images/blurr.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        border-bottom: 5px solid #C62368;
+    }
+
+    nav {
+        background: url(svgs-and-images/nav2.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        /* background-attachment: fixed; */
+        background-size: cover;
+
+        border-bottom: 5px solid #59e3ff;
+
+    }
+
+    .without-border {
+        border: none;
+
+    }
+
+    footer {
+        border-top: 3px solid rgb(163, 162, 162);
+        padding-top: 32px;
+    }
+
+    .offer {
+        color: #C62368;
+
+        text-decoration-line: line-through;
+        text-decoration-color: #C62368;
+        text-decoration: line-through;
+    }
+    .mybrand{   transition: all ease-out 0.4s;
+    }
+    .mybrand:hover{
+     color: #59e3ff;
+transform: scale(1.2,1.2);
+    }
+    /* .card-wrapper {
+
+        text-shadow: 2px 3px 11px black;
+    } */
+
+    @media only screen and (max-width:600px) {
+
+        /*      carousel in phone */
+        .cp {
+
+            width: inherit;
+            height: 270px;
+
+
+
+        }
+
+        /* cards in phone */
+        .without-border {
+
+            border-bottom: 1px solid black;
+            border-radius: 0;
+        }
+
+
+    }
