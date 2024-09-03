@@ -1,0 +1,76 @@
+        
+@font-face {
+    font-family: 'vazir';
+    src: url('../vazir-font-v27.2.2-Fontjo.com/Vazir-Medium.ttf') format('truetype'),
+        url('../vazir-font-v27.2.2-Fontjo.com/Vazir-Medium.woff') format('woff'),
+        url('../vazir-font-v27.2.2-Fontjo.com/Vazir-Medium.woff2') format('woff2');
+}
+
+* {
+    font-family: vazir;
+}
+
+  .red {
+    color: #C62368;
+}
+
+.blue {
+    color: #59e3ff;
+}
+
+.bg-blue {
+    background-color: #59e3ff;
+}
+
+.bg-red {
+    background-color: #C62368;
+}
+.pro-ic {
+    padding: 16px;
+    /* background-color: rgb(0, 0, 0); */
+    /* border-bottom-left-radius: 13px; */
+    color: #59e3ff;
+}
+
+img {
+    height: inherit !important;
+    z-index: 2;
+    transform: translateY(30rem);
+}
+
+.pic-con {
+    height: 270px;
+}
+
+footer{
+    border-top: 3px solid rgb(163, 162, 162);
+    padding-top: 32px;
+}
+#data-sec{
+    border-top: 4px solid #C62368;
+}
+
+.red-border{
+    
+    border: 4px solid #C62368;
+}
+#pic{
+    background: url(../svgs-and-images/InShot_20240812_180240858.jpg);
+    
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+}
+
+@media only screen and (max-width:500px) {
+    img{
+        
+        /* transform: translateY(100px); */
+        transform: scale(0.5,0.5)  translateY(230px);
+    }
+    #pic{
+        height: auto;
+    }
+
+}
